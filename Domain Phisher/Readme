@@ -1,0 +1,16 @@
+# Domain Phisher
+
+A simple Tool to see if someone has registered a Domain similiar to your own, which could be used for phishing.
+
+-V1 (Basic Version): only ten Lines of Code, splits Domain into Domain Name and TLD
+-V2: creates Versions of the Input Domain (e.g. [domain]-customerservice) and adds various TLDs
+-V3: checks Similiarity of Input TLD, simple Infoscreen for the User to choose transformations
+-V4: does a Whois Lookup to see if the generated Domains are registered which could be a sign that someone is using them for phishing
+
+
+Used Libraries
+- tldextract (https://pypi.org/project/tldextract/)
+- difflib (Python Standard Library)
+- pyfiglet (https://pypi.org/project/pyfiglet/)
+- time (Python Standard Library)
+- whois (https://pypi.org/project/python-whois/)
