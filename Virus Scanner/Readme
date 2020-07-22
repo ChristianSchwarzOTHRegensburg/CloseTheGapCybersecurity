@@ -1,0 +1,12 @@
+# Virus Scanner
+
+A simple Virus Scanner to understand how these things work. We start by checking if we can find a file based on its hash value. Later we will check for hashes of real Malware inside a directory we specify. Last Part will be a simple GUI to make the Scanner more accessible
+
+-V1 (Basic Version): generate a hashvalue for two given files
+-V2: uses the generated Hash from V1 to check if the Test File is inside the specified directory
+-V3: use real Malware Hashes and read them from file, generate GUI Alert if Hash matches (In Progress)
+-V4: add simple GUI to our Virus Scanner where User can choose directory and see some statistics (scanned files, found problems) (In Progress)
+
+Used Libraries
+- hashlib (https://pypi.org/project/hashlib/)
+- os (Python Standard Library)
