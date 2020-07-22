@@ -1,0 +1,15 @@
+# Email Harvester
+
+Email Harvester is a simple script to collect email addresses from websites. You can use it to find possible attack vectors on your site. 
+
+-V1 (Basic Version): uses a simple regular Expression to find Emails inside a String
+-V2: requests the content of a website, cleans it up and finds Email addresses using our regex
+-V3: user can enter a website, script ist able to follow links on that site and search for addresses on other sites too
+-V4: more advanced regex, email addresses are written to file
+-V5: user can choose between examining one site or collecting emails from everywhere, hopping from site to site via the found links
+
+Used Libraries
+- requests (Python Standard Library)
+- re (Python Standard Library)
+- bs4 (https://pypi.org/project/beautifulsoup4/)
+- sys (Python Standard Library)
