@@ -8,6 +8,7 @@ Planned topics are among others:
 - Domain Phisher (check if someone is using a domain similar to yours for phishing) 
 - Virus Scanner (build a simple Virus Scanner by comparing file hashes with real malware hashes)
 - Social Password (build your own rainbow Tables and wordlists from social media profiles)
+- Simple DOS Bot (shutdown your Social Media Profiles)
 - Further projects can be added, the final e-book should contain about 10 projects
 
 Suggestions for further projects are welcome, these should be realizable in about 100-200 lines of code. Each project starts with a basic version that contains the absolute minimum functionality to show the feasibility of the solution. In 3 -4 further steps the basic solution is then improved and additional functionality is added.
