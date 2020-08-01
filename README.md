@@ -9,6 +9,7 @@ Planned topics are among others:
 - Virus Scanner (build a simple Virus Scanner by comparing file hashes with real malware hashes)
 - Social Password (build your own rainbow Tables and wordlists from social media profiles)
 - Simple DOS Bot (shutdown your Social Media Profiles)
+- OSINT Tool (build a reconnaissance Tool to find out more about a Person or Company)
 - Further projects can be added, the final e-book should contain about 10 projects
 
 Suggestions for further projects are welcome, these should be realizable in about 100-200 lines of code. Each project starts with a basic version that contains the absolute minimum functionality to show the feasibility of the solution. In 3 -4 further steps the basic solution is then improved and additional functionality is added.
